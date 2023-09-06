@@ -1,7 +1,7 @@
 const Accommodation = () => {
     return ( 
         <div className="accommodation">
-            Accommodation
+            Accommodation Page
         </div>
      );
 }
