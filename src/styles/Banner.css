@@ -1,0 +1,33 @@
+
+.banner {
+    position: relative;
+    width: 85%;
+    max-width: 85%; 
+    height: 150px;
+    overflow: hidden; 
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner>img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -250px;
+}
+
+.banner>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner>div>h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+}
