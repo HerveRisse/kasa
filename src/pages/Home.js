@@ -1,12 +1,11 @@
 import Banner from "../components/Banner";
-import Card from "../components/Card";
+import Gallery from "../components/Gallery";
 
 const Home = () => {
     return ( 
         <div className="home">
             <Banner/>
-            Home Page
-            <Card/>
+            <Gallery />
         </div>
      );
 }

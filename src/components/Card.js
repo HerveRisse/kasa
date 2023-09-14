@@ -1,10 +1,11 @@
 import "../styles/Card.css";
 
-const Card = () => {
+const Card = (props) => {
+    
     return ( 
-        <div className="card">
+        <div className="card" style={ {backgroundImage: `url(${props.data.cover})`} }>
             <div>
-                <h2>Titre de la location</h2>
+                <p>{props.data.title}</p>
             </div>
         </div>
      );
