@@ -1,6 +1,8 @@
 import "../styles/About.css"
 import Chevron from '../images/Vector.svg';
 import { useState } from "react";
+import mountainImg from '../images/mountain.svg';
+import Banner from "../components/Banner";
 
 const About = () => {
 
@@ -11,6 +13,7 @@ const About = () => {
 
     return ( 
         <div className="about">
+            <Banner id="about-banner" img={mountainImg} title={''}/>
             <div className="fiabilite">
                 <div onClick={()=>{setFiabiliteOpen(!fiabiliteOpen)}}>
                     <h3>Fiabilité</h3>

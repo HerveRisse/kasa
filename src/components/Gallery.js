@@ -1,13 +1,13 @@
 import "../styles/Gallery.css";
 import Card from "./Card";
-import Alldata from "../data/data.json"
+import Accommodations from "../data/data.json"
 
 const Gallery = () => {
     return ( 
         <div className="gallery">
-            {Alldata.map((data)=> 
+            {Accommodations.map((accommodation)=> 
             (
-                <Card data={data}></Card>
+                <Card data={accommodation}></Card>
             ))}
         </div>
      );

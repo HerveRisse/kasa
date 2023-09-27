@@ -1,12 +1,11 @@
 import "../styles/Banner.css";
-import falaiseImg from '../images/falaise.svg';
 
-const Banner = () => {
+const Banner = (props) => {
     return ( 
-        <div className="banner">
-            <img src={falaiseImg} alt="falaise"/>
+        <div id={props.id} className="banner">
+            <img src={props.img} alt=""/>
             <div>
-                <h1>Chez vous, partout et ailleurs</h1>
+                <h1>{props.title}</h1>
             </div>
         </div>
      );

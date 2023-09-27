@@ -1,9 +1,9 @@
 
 .banner {
     position: relative;
-    width: 85%;
-    max-width: 85%; 
-    height: 150px;
+    width: 90%;
+    max-width: 90%; 
+    height: 75px;
     overflow: hidden; 
     margin: auto;
     border-radius: 10px;
@@ -13,7 +13,6 @@
     max-width: 100%;
     height: auto;
     display: block;
-    margin-top: -250px;
 }
 
 .banner>div {
@@ -29,5 +28,26 @@
 }
 .banner>div>h1 {
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .banner>img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-top: -250px;
+    }    
+
+    .banner {
+        position: relative;
+        width: 90%;
+        max-width: 90%; 
+        height: 150px;
+        overflow: hidden; 
+        margin: auto;
+        border-radius: 10px;
+    }
+    
 }
