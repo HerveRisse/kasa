@@ -1,6 +1,6 @@
 import Banner from "../components/Banner";
 import Gallery from "../components/Gallery";
-import falaiseImg from '../images/falaise.svg';
+import falaiseImg from '../images/falaise.jpg';
 
 
 const Home = () => {

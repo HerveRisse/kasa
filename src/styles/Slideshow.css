@@ -1,0 +1,23 @@
+.slideshow {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    padding-inline: 15px;
+}
+
+.slideshow>img {
+    width: 50px;
+}
+
+.slide-counter {
+    color: white;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    font-weight: 700;
+}

@@ -5,13 +5,13 @@ const Card = (props) => {
     
         const navigate = useNavigate();
       
-        const handleCardClick = (accommodationData) => {
-          navigate('/accommodation', { state: { accommodationData } });
+        const handleCardClick = () => {
+          navigate(`/accommodation/${props.data.id}`);
         };
 
     return ( 
         <div className="card" style={ {backgroundImage: `url(${props.data.cover})`} }>
-            <div onClick={() => handleCardClick(props.data)}>
+            <div onClick={handleCardClick}>
                 <p>{props.data.title}</p>
             </div>
         </div>

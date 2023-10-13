@@ -1,7 +1,7 @@
 import "../styles/About.css"
 import Chevron from '../images/Vector.svg';
 import { useState } from "react";
-import mountainImg from '../images/mountain.svg';
+import mountainImg from '../images/mountain.jpg';
 import Banner from "../components/Banner";
 
 const About = () => {
