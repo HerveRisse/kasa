@@ -1,6 +1,6 @@
 .slideshow {
-    width: 90%;
-    height: 450px;
+    width: 82%;
+    height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,7 +11,7 @@
 }
 
 .slideshow>img {
-    width: 50px;
+    width: 12px;
 }
 
 .slide-counter {
@@ -20,4 +20,15 @@
     align-self: flex-end;
     margin-bottom: 20px;
     font-weight: 700;
+}
+
+@media (min-width: 760px) {
+    .slideshow {
+        width: 90%;
+        height: 450px;
+    }
+
+    .slideshow>img {
+        width: 50px;
+    }    
 }

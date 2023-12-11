@@ -52,12 +52,22 @@
     transform: rotate(0deg);
 }
 
-@media (min-width: 1024px) {
-    .about>div>div {
-        width: 1000px;
+@media (min-width: 760px) {
+    .fiabilite>div, .respect>div, .service>div, .securite>div {
+        width: 700px;
     }
 
     .open {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .fiabilite>div, .respect>div, .service>div, .securite>div {
+        width: 1000px;
+    }
+
+    .about .open {
         width: 1000px;
     }
 }

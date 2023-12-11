@@ -7,7 +7,7 @@ const Gallery = () => {
         <div className="gallery">
             {Accommodations.map((accommodation)=> 
             (
-                <Card data={accommodation}></Card>
+                <Card data={accommodation} key={accommodation.id}/>
             ))}
         </div>
      );
