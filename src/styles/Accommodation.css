@@ -45,24 +45,6 @@
 .host-name>img {
     width: 64px;
     border-radius: 100px;
-  }
-
-.accommodation-preview>div>ul {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-}
-.tags {
-    flex-wrap: wrap;
-}
-
-.tags>li {
-    color: #F6F6F6;
-    background-color: #FF6060;
-    border-radius: 10px;
-    padding: 5px 25px;
-    margin-right: 10px;
-    margin-bottom: 8px;
 }
 
 /*  -----  Accommodation-info  -----  */
@@ -101,10 +83,6 @@
     padding-inline: 5px;
     padding-block: 20px;
     margin: auto;
-}
-
-.close {
-    display: none;
 }
 
 .up {

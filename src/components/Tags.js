@@ -1,3 +1,5 @@
+import "../styles/Tags.css";
+
 const Tags = ({tags}) => {
 
     return (

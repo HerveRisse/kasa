@@ -1,0 +1,15 @@
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tags>li {
+    color: #F6F6F6;
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}

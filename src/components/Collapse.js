@@ -10,7 +10,9 @@ const Collapse = ({styleclass, title, content}) => {
                 <h3>{title}</h3>
                 <img className={toggleOpen ? 'up' : 'down'} src={Chevron} alt="chevron"/>
             </div>
-            <p className={toggleOpen ? 'open' : 'close'}>{content}</p>
+            {toggleOpen &&
+               <p className={'open'}>{content}</p>
+            }
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import activeStar from '../images/star-active 1.svg';
 import inactiveStar from '../images/star-inactive 1.svg';
+import "../styles/Stars.css";
 
 const Stars = ({rating}) => {
     const starsContainer = [];
@@ -13,7 +14,7 @@ const Stars = ({rating}) => {
     }
     
     return (
-        <ul>
+        <ul className='stars-container'>
             {starsContainer}
         </ul>     
     )
